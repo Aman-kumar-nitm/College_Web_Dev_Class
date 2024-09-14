@@ -1,0 +1,133 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="project_container">
+        <div class="header">
+            <div class="left">
+                <h3><a href="index.html">Project 4</a> </h3>
+                
+            </div>
+            <div class="right">
+                <a href="portfolio.html">About us</a>
+                <a href="table.html">TABLE</a>
+                <a href="form.html">FORM</a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="bodyleft">
+                <a href="index2.html"><img src="download.jpeg" style="width:100%;height:100%;border:2px solid black;border-radius: 2px;"></a>
+            </div>
+            
+        </div>
+    </div>
+  
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <ol>
+                <li>
+                    <h3>Location</h3>
+                    <p>This everest is known as mountain everest and it is located on the border of Nepal and Tibet,an autonomous region of China.</p>
+                </li>
+                <li>
+                    <h3>Height</h3>
+                    <p>Mount everst is the world's tallest mountain at 29,302feet (8849 meters) above sea level.</p>
+                </li>
+                <li>
+                    <h3>Shape</h3>
+                    <p>Mount everest is shaped like a three sided pyramid with the summit covered in snow.</p>
+                </li>
+                <li>
+                    <h3>Weather</h3>
+                    <p>Storms can come up suddenly and sustained winds can exceed 100 miles per hour.</p>
+                </li>
+                <li>
+                    <h3>Discovery</h3>
+                    <p>The Indian mathematician and sureyor Radhanath sikdar was the first person to identify Mountain everset.</p>
+                </li>
+            </ol>
+        </div>
+        <div class="link_container">
+            <h3>For more Information</h3>
+            <ul>
+                <li>
+                    <a href="google.com">Google_Mount Everest</a>
+                </li>
+                <li>
+                    <a href="wikipedia.com">Wikipedia_Mount Everest</a>
+                </li>
+                <li>
+                    <a href="index.html">Our Website Page</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <ol>
+                <li>
+                    <h3>Location</h3>
+                    <p>This everest is known as mountain everest and it is located on the border of Nepal and Tibet,an autonomous region of China.</p>
+                </li>
+                <li>
+                    <h3>Height</h3>
+                    <p>Mount everst is the world's tallest mountain at 29,302feet (8849 meters) above sea level.</p>
+                </li>
+                <li>
+                    <h3>Shape</h3>
+                    <p>Mount everest is shaped like a three sided pyramid with the summit covered in snow.</p>
+                </li>
+                <li>
+                    <h3>Weather</h3>
+                    <p>Storms can come up suddenly and sustained winds can exceed 100 miles per hour.</p>
+                </li>
+                <li>
+                    <h3>Discovery</h3>
+                    <p>The Indian mathematician and sureyor Radhanath sikdar was the first person to identify Mountain everset.</p>
+                </li>
+            </ol>
+        </div>
+        <div class="link_container">
+            <h3>For more Information</h3>
+            <ul>
+                <li>
+                    <a href="google.com">Google_Mount Everest</a>
+                </li>
+                <li>
+                    <a href="wikipedia.com">Wikipedia_Mount Everest</a>
+                </li>
+                <li>
+                    <a href="index.html">Our Website Page</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
