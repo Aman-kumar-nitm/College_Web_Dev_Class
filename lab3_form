@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(to bottom,#99ccff,#ff99cc);
+            padding:20px;
+            border:1px dashed black;
+        }
+        .container{
+            display:flex;
+         
+            justify-content: center;
+        }
+        .buttoncontainer{
+         display:flex;
+         justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <table>
+        <tr>
+        <td>First Name</td>
+        <td><input type="text" id="First_Name" placeholder="Ghanendra">
+        (Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td>Last Name </td>
+                <td> <input type="text" id="Last_Name" placeholder="Yadav"> 
+                (Max 50 Characters Allowed)</td>
+            </tr>
+            <tr><td>Email ID</td>
+            <td>  <input type="text" id="email" placeholder="yghanendra@gmail.com"></td></tr>
+            <tr>
+                <td>Mobile No</td>
+                <td> <input type="tel" id="tel.no" placeholde="7642xxxxxx">
+                (10 Digits Allowed)</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>   <label for="Male">Male</label>
+                    <input type="radio" id="Male">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Female"></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth(DOB)</td>
+                <td><input type="date" id="DOB"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>        <input type="text-area" style="row:10;columns:10;"id="Address"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" placeholder="Banglore">
+                (Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td>Pin Code</td>
+                <td> <input type="text" id="PinCode" placeholder="560063">
+                (Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text" id="State" placeholder="Karnataka">
+                (Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>  <input type="text" id="Country" placeholder="India"></td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>   <section>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Drawing</label>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Dancing</label>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Sketching</label>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Singing</label>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Others</label>
+                   
+                    <input type="text" id="checkbox" placeholder="Ex:Teaching">
+                    (Max 50 Characters Allowed)
+                </section></td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>   <section>
+                    <input type="checkbox" id="qualification"> 
+                    <label for="qualification">High School(10th)</label>
+                    <br>
+                    <input type="checkbox" id="qualification">
+                    <label for="qualification">Higher School(12th)</label>
+                     <br>
+                    <input type="checkbox" id="qualification">
+                    <label for="qualification">Graduation(Bachelors)</label>
+                    <br>
+                    <input type="checkbox" id="qualification">
+                     <label for="qualification">Post Graduation(Masters)</label>
+                    <br>
+                    <input type="checkbox" id="qualification">
+                    <label for="qualification">Phd</label>
+                    <br><br>
+                    </section></td>
+            </tr>
+            <tr>
+                <td>Courses Applied For</td>
+                <td>  <section>
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">BCA(Bachelor of Computer Application)</label>
+                   <br>
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">B.Com(Bachelor of Commerce)</label>
+                   <br>
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">B.Sc(Bachelor Of Science)</label>
+                   <br>
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">BA(Bachelor of Arts)</label>
+                   <br>
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">MCA(Master of Computer Application)</label>
+                   <br>
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">M.Com(Master of Commerce)</label>
+                   <br>
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">M.Sc(Master of Science)</label>
+                    <br>
+           
+                    <input type="radio" id="courses_applied">
+                    <label for="courses_applied">MA(Master Of Arts)</label>
+                    <br><br>
+                  </section></td>
+            </tr>
+    </table>
+    </div>
+    <div class="buttoncontainer">
+    <button>Submit</button>
+    <button>Reset</button>
+    </div>
+</body>
+</html>
